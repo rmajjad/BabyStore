@@ -1,0 +1,128 @@
+:root {
+    --main-color1: #EF7B84;
+    --main-color2: #00d4c5;
+}
+
+/*start contact*/
+.contact{
+    background: linear-gradient(rgba(240, 235, 235, 0.53), rgba(240, 235, 235, .53)), url('../img/breadcrumb_bg_img.webp');
+    background-size: cover;
+    height: 25vh;
+    background-attachment: fixed;
+}
+
+.contact a,h1,h2{
+    color: rgb(104, 95, 82);
+}
+
+.contact h1{
+    font-size: 25px;
+}
+
+.contact h2{
+    font-size: 15px;
+}
+.contact a:hover{
+    color: var(--main-color2);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.contact .Tcontact{
+    padding-top: 3.5rem;
+}
+
+.contactUs .iconANDdet{
+    border: 2px solid ;
+    border-color:rgb(220, 215, 208);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.iconANDdet i{
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+
+.iconANDdet .det h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(104, 95, 82);
+}
+
+.iconANDdet .det h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(104, 95, 82);
+}
+
+.iconANDdet:hover i {
+    background-color: var(--main-color2);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.iconANDdet .det a{
+    color: rgb(104, 95, 82);
+}
+
+.iconANDdet .det a:hover{
+    color: var(--main-color1);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.iconANDdet:hover{
+    border-color:var(--main-color2);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.contactForm .form-control{
+    height: 50px;
+}
+
+.contactForm .message{
+    height: 300px;
+}
+
+.contactForm h2{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contactForm button{
+    width: 350px;
+    height: 50px;
+}
+
+.contactForm button:hover{
+    background-color: var(--main-color2);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}

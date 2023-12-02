@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BabyStore-Home</title>
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="vender/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vender/bootstrap/swiper-bundle.min.css">
+  <!--fontawsome-->
+  <link rel="stylesheet" href="vender/fontawesome/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="stylesheet" href="assets/css/media.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  
+</head>
+
+<body class="index">
+
+  <div class="loading bg-white position-fixed d-flex justify-content-center align-items-center vh-100 w-100 z-3 ">
+    <span class="loader"></span>
+  </div>
+  <div class="scroll-to-top opacity-0 invisible position-fixed bg-main-color1 text-white rounded-circle d-flex justify-content-center align-items-center z-2 ">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  <!--start navbar-->
+  <nav class="pb-5 nav1 z-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-4 nav-item1">
+          <a href="#"><img src="assets/img/logo_400x400.png" class="img-fluid" alt="baby-logo"></a>
+        </div>
+        <div class="col-md-4 mt-4 nav-item2">
+          <nav class="navbar bg-body ">
+            <div class="searching position-relative">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 rounded-pill text shadow-none" type="search" placeholder="Search"
+                  aria-label="Search">
+                <button class="btn search" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-4 mt-5 iconss nav-item3">
+          <div class="d-flex justify-content-center nav-icons">
+            <a href="#"><i class="fa-regular fa-user pe-4"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping pe-4"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar nav2 navbar-expand-lg ">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item fs-5 me-4">
+            <a class="nav-link active home" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item fs-5 me-4">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item fs-5 me-4">
+            <a class="nav-link" href="#healty-and-safety">Healthy and Safety</a>
+          </li>
+          <li class="nav-item fs-5 me-4">
+            <a class="nav-link" href="#baby-toys">Baby Toys</a>
+          </li>
+          <li class="nav-item fs-5 me-4">
+            <a class="nav-link" href="#pages">Pages</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+  <!--start collection section-->
+  <section class="collection vh-100">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active slide1 ">
+          <img src="assets/img/slideshow_1.jpg" class="d-block w-100 img1" alt="...">
+          <div class="caption1 text-center">
+            <h2 class="text-capitalize bAcc">baby accessories</h2>
+            <h3 class="text-uppercase text-main-color1">for your lovely baby</h3>
+            <p>With the most safe products for your baby like <br>
+              mother care. Get the original product here.
+            </p>
+            <button class="btn rounded-pill text-white px-4 py-3 ">view collection</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/slideshow_2.jpg" class="d-block w-100 img2" alt="...">
+        <div class="caption2 text-center">
+          <h2 class="text-capitalize ">lovely kids</h2>
+          <h3 class="text-uppercase text-main-color1">Safe Toys for Kids</h3>
+          <p> With the most safe products for your baby like mother care. <br>
+            Get the original product here.</p>
+          <button class="btn rounded-pill text-white px-4 py-3 ">view collection</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/slideshow_3_768x940.jpg" class="d-block w-100 img3" alt="...">
+        <div class="caption3 text-center">
+          <h2 class="text-capitalize ">lovely kids</h2>
+          <h3 class="text-uppercase text-main-color1">
+            Everything you need for <br> your Baby
+          </h3>
+          <p>All quality products for your baby like mothers care.</p>
+          <button class="btn rounded-pill text-white px-4 py-3 ">view collection</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+  <!--end collection section-->
+
+  <!--start images section-->
+  <section class="images p-5 ">
+
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="captions ">
+          <div class="imgg position-relative">
+            <div class="img-container">
+              <img src="assets/img/araba.jpg" class="img-fluid mb-3 img1 " alt="...">
+              <div class="overlayyy"></div>
+            </div>
+            <div class="cap1 position-absolute">
+              <h2>Baby Strollers</h2>
+              <h3>Chick me'</h3>
+              <a href="#">Browse Products</a>
+            </div>
+          </div>
+          <div class="imgg position-relative">
+            <div class="img-container">
+              <img src="assets/img/lhaya.jpg" class="img-fluid img2" alt="...">
+              <div class="overlayyy"></div>
+            </div>
+            <div class="cap2 position-absolute">
+              <h2>Baby Pacifier</h2>
+              <h3 class="baby-lover">Baby Love</h3>
+              <a href="#">Browse Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+
+        <div class="captions ">
+          <div class="imgg position-relative">
+            <div class="img-container">
+              <img src="assets/img/baby1.jpg" class="img-fluid" alt="...">
+              <div class="overlayyy"></div>
+            </div>
+            <div class="cap position-absolute">
+              <h2>Kids Accessories n Toys</h2>
+              <h3 class="Bingo-Lingo">Bingo Lingo</h3>
+              <p>We create the best toys for your kids <br>
+                with safe plastics.
+              </p>
+              <a href="#">Browse Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="captions ">
+          <div class="imgg position-relative">
+            <div class="img-container">
+              <img src="assets/img/shamboo.jpg" class="img-fluid mb-3 img1" alt="...">
+              <div class="overlayyy"></div>
+            </div>
+            <div class="cap1 position-absolute">
+              <h2>Baby Lotions
+              </h2>
+              <h3 class="Kimi-Care">Kimi Care
+              </h3>
+              <a href="#">Browse Products</a>
+            </div>
+          </div>
+
+          <div class="imgg position-relative">
+            <div class="img-container">
+              <img src="assets/img/baby2.jpg" class="img-fluid img2" alt="...">
+              <div class="overlayyy"></div>
+            </div>
+            <div class="cap2 position-absolute">
+              <h2>Baby Care Products
+              </h2>
+              <h3 class="Baby-Love">Baby Love
+              </h3>
+              <a href="#">Browse Products</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!--end images section-->
+
+  <!--start Accessories section-->
+  <section class="Accessories pb-4 mb-5">
+    <h2 class="text-main-color2 text-center mb-5 ">Baby Accessories</h2>
+    <div class="container w-75 ">
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="Accessory position-relative  mb-5">
+          <div class="img-container">
+            <img src="assets/img/hat.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details w-100 text-center position-absolute px-5 ">
+            <h3>Woollen caps with strings</h3>
+            <p>$300</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/shoes.jpg" class="img-fluid pb-5 " alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Armour Football Shoes</h3>
+            <p>$800</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="image-container">
+            <img src="assets/img/baby-pacifier.jpg" class="img-fluid pb-5 defualt-image" alt="...">
+            <img src="assets/img/b2.jpg" class="img-fluid pb-5 hover-image" alt="...">
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Transformers Generations</h3>
+            <p>$900</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="Accessory position-relative  mb-5">
+          <div class="img-container">
+            <img src="assets/img/arnb.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details w-100 text-center position-absolute px-5 ">
+            <h3>Woollen caps with strings</h3>
+            <p>$300</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/tabannn.jpg" class="img-fluid pb-5 " alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Armour Football Shoes</h3>
+            <p>$800</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="image-container">
+            <img src="assets/img/coatt.jpg" class="img-fluid pb-5 defualt-image" alt="...">
+            <img src="assets/img/coattH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Transformers Generations</h3>
+            <p>$900</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="Accessory position-relative  mb-5">
+          <div class="img-container">
+            <img src="assets/img/rdaaa.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details w-100 text-center position-absolute px-5 ">
+            <h3>Woollen caps with strings</h3>
+            <p>$300</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="image-container">
+            <img src="assets/img/shoess.jpg" class="img-fluid pb-5 defualt-image" alt="...">
+            <img src="assets/img/shoessH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Armour Football Shoes</h3>
+            <p>$800</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/l3bh.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Transformers Generations</h3>
+            <p>$900</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="Accessory position-relative  mb-5">
+          <div class="img-container">
+            <img src="assets/img/mashata.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details w-100 text-center position-absolute px-5 ">
+            <h3>Woollen caps with strings</h3>
+            <p>$300</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="image-container">
+            <img src="assets/img/koot.jpg" class="img-fluid pb-5 defualt-image" alt="...">
+            <img src="assets/img/kootH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Armour Football Shoes</h3>
+            <p>$800</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/bot.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Transformers Generations</h3>
+            <p>$900</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="row">
+      <div class="col-md-4">
+        <div class="Accessory position-relative  mb-5">
+          <div class="img-container">
+            <img src="assets/img/catCap.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details w-100 text-center position-absolute px-5 ">
+            <h3>Woollen caps with strings</h3>
+            <p>$300</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/taban.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Armour Football Shoes</h3>
+            <p>$800</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="Accessory position-relative ">
+          <div class="img-container">
+            <img src="assets/img/bandaCap.jpg" class="img-fluid  pb-5" alt="...">
+            <div class="overlay"></div>
+          </div>
+          <div class="details text-center position-absolute px-5 ">
+            <h3>Transformers Generations</h3>
+            <p>$900</p>
+          </div>
+          <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-heart px-5 "></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    ...
+  </div>
+  
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+  
+</div>
+    </div>
+  </section>
+  <!--end Accessories section-->
+
+
+  <!--start baby-fashion section-->
+  <section class="baby-fashion w-100 vh-100 p-5 position-relative mt-5">
+    <div class="container-fluid ">
+      <div class="contants text-end position-absolute">
+        <h2>NEW BRAND COLLECTION</h2>
+        <h3 class="mt-3">Baby Fashion</h3>
+        <h4 class="mt-4">Flat 50% Off</h4>
+        <button class="btn rounded-pill text-white px-4 py-3 mt-5 ">Shop Now</button>
+      </div>
+    </div>
+  </section>
+  <!--end baby-fashion section-->
+
+
+  <!--start Baby-Clothes section-->
+  <section class="Baby-Clothes p-5">
+    <div class="container">
+      <h1 class="text-center p-5">Baby clothes</h1>
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-pill active " id="pills-Feeding-bottle-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-Feeding-bottle" type="button" role="tab" aria-controls="pills-Feeding-bottle"
+            aria-selected="true">Feeding bottle</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-pill" id="pills-Clothes-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-Clothes" type="button" role="tab" aria-controls="pills-Clothes"
+            aria-selected="false">Clothes</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-pill" id="pills-Baby-Toys-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-Baby-Toys" type="button" role="tab" aria-controls="pills-Baby-Toys"
+            aria-selected="false">Baby Toys</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-Feeding-bottle" role="tabpanel"
+          aria-labelledby="pills-Feeding-bottle-tab" tabindex="0">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/toy1.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="hover-image">
+                      <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                      <img src="assets/img/tH.jpg" class="img-fluid pb-5" alt="...">
+                    </div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Chicoo Chicco Turn Around Cube</h2>
+                    <h3>Klapp</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$170.00</p>
+                      <p class="old-price ">$195.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                    <div class="img-container">
+                      <div class=""><img src="assets/img/mashata.jpg" class="img-fluid " alt="..."> </div>
+                      <div class="overlay"></div>
+                    </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Euler's Spinning Disk</h2>
+                    <h3>Deuter</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                      <p class="old-price ">$789.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/jacket.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Honey Bee Teether</h2>
+                    <h3>Arabella</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                      <p class="old-price ">$789.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/shoes2.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Lee Cooper baby Sneakers</h2>
+                    <h3>Sega</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                      <p class="old-price ">$789.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/tabban.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Link 'n Go Play Pack</h2>
+                    <h3>Zebras</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$800.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/koot.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/kootH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Learn with Me Zebra Walker</h2>
+                    <h3>MomToBe</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$200.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/toy3.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Sassy Crib and Floor Mirror</h2>
+                    <h3>Hot Wheels</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$100.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/cat-hat.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>On-the-Go Stroller</h2>
+                    <h3>Arabella</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$400.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="pills-Clothes" role="tabpanel" aria-labelledby="pills-Clothes-tab" tabindex="0">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/radaa.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/rH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Feeding Bottles</h2>
+                    <h3>Fisher-Price</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$320.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/sockks.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/sH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Critter Clinic Shoes</h2>
+                    <h3>Deuter</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$340.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/araba2.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/araba4H.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Deuter Black Tour Bag</h2>
+                    <h3>Deuter</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/coat.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Flip & Surprise Caterpillar</h2>
+                    <h3>Fisher-Price</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$100.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/araba3.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Front Tie Raised</h2>
+                    <h3>Hot Wheels</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$765.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/dress.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/dH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>flowy Open-Back ShirtSega</h3>
+                      <div class="product-price d-flex justify-content-center">
+                        <p class="present-price">$900.00</p>
+                      </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/d2.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/d2H.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Flutter-Sleeve Geo Print Tee</h2>
+                    <h3>Arabella</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$900.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/toys4.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/babyTH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Saffire Toy Dolphin</h2>
+                    <h3>Hot Wheels</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$900.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Baby-Toys" role="tabpanel" aria-labelledby="pills-Baby-Toys-tab"
+          tabindex="0">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/toy5.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="hover-image">
+                      <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                      <img src="assets/img/solH.jpg" class="img-fluid pb-5" alt="...">
+                    </div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Comdaq Doll Stroller</h2>
+                    <h3>Fisher-Price</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                      <p class="old-price ">$789.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/toy1.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="hover-image">
+                      <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                      <img src="assets/img/tH.jpg" class="img-fluid pb-5" alt="...">
+                    </div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Chicoo Chicco Turn Around Cube</h2>
+                    <h3>Klapp</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$170.00</p>
+                      <p class="old-price ">$195.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                  <div class="image-container">
+                    <div class=""><img src="assets/img/avarhool.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="hover-image">
+                      <p class="sale rounded-circle text-white bg-main-color1 text-center position-absolute">sale</p>
+                      <img src="assets/img/avarhoolH.jpg" class="img-fluid pb-5" alt="...">
+                    </div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Crinkle Leaf</h2>
+                    <h3>Deuter</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$300.00</p>
+                      <p class="old-price ">$789.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="img-container">
+                    <div class=""><img src="assets/img/koot2.jpg" class="img-fluid " alt="..."> </div>
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Cosco Rio Size 3</h2>
+                    <h3>Dior</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$100.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/koot3.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/koot4H.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Classic Fisher Price Gift Set</h2>
+                    <h3>Colbian</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$100.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/avarhool-cut.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/pinkTabbanH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Comfort Vibe Play Wedge</h2>
+                    <h3>KiddosCare</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$985.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/araba4.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/araH.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Bumbo Floor Seat in Cool Grey</h2>
+                    <h3>Deuter</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$590.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="details mt-5 position-relative ">
+                  <div class="image-container img-container">
+                    <div class=""><img src="assets/img/toy6.jpg" class="img-fluid " alt="..."> </div>
+                    <img src="assets/img/toy6H.jpg" class="img-fluid pb-5 hover-image" alt="...">
+                    <div class="overlay"></div>
+                  </div>
+                  <div class="detail text-center p-3  ">
+                    <h2>Bomber Trekking Rucksack</h2>
+                    <h3>Inlander</h3>
+                    <div class="product-price d-flex justify-content-center">
+                      <p class="present-price">$800.00</p>
+                    </div>
+                  </div>
+                  <div class="icons d-flex justify-content-center fs-6 text-main-color1 position-absolute">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-regular fa-heart px-5 "></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--end Baby-Clothes section-->
+
+
+  <!--start Categories Deals section-->
+  <section class="Categories-Deals py-5">
+    <div class="container">
+      <h2 class="text-center pb-5">Categories Deals</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="about-Categories-Deals1 text-center">
+            <h3>Baby Clothings</h3>
+            <img src="assets/img/imga1_470x.webp" class="img-fluid py-4" alt="...">
+            <p>In Store Now Plus Gift Set With Deal</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="about-Categories-Deals2 text-center">
+            <h3>Bathing Products</h3>
+            <img src="assets/img/imga2_470x.webp" class="img-fluid py-4" alt="...">
+            <p>Sale Off 25% Get Over 20$ in saving</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="about-Categories-Deals3 text-center">
+            <h3>Diapers</h3>
+            <img src="assets/img/imga3_470x.webp" class="img-fluid py-4" alt="...">
+            <p>Best Price ever Place Order</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="about-Categories-Deals4 text-center">
+            <h3>Plastic Toys</h3>
+            <img src="assets/img/imga4_470x.webp" class="img-fluid py-4" alt="...">
+            <p>Sale Off 50% Get Over 20$ in saving</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--start Categories Deals section-->
+
+  <!--start comments section-->
+  <section class="comments p-5 ">
+    <div class="container ">
+      <h2 class="text-center pb-4">We write to read</h2>
+      <div class="row allcomments justify-content-center">
+        <div class="col-md-5 comment1">
+          <div class="position-relative imgbaby mt-3">
+            <img src="assets/img/playing-baby.webp" alt="...">
+            <div class="date bg-main-color1 px-2 py-1 text-white text-center position-absolute"><span
+                class="day">15</span> <br> <span class="month">Oct</span></div>
+          </div>
+          <div class="comment pt-4">
+            <h3>Toys helps to learn while kids grow faster</h3>
+            <p>Vivamus arcu sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+              quam
+              felis, ultricies nec, pellentesque eu, pr...</p>
+            <div class="comment-by d-flex align-content-center  align-items-center fa-2xs">
+              <i class="fa-regular fa-user text-center text-main-color1"></i>
+              <h4 class="p-2 mt-2">By Ram M | 1 Comment</h4>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 comment2-3 pb-5 ">
+          <div class="comment2 d-flex">
+            <div class="position-relative imgbaby2 mt-3">
+              <img src="assets/img/baby-playing2.png" class="pb-0" alt="...">
+              <div class="date bg-main-color1 px-2 py-1 text-white text-center position-absolute"><span
+                  class="day">15</span> <br> <span class="month">Oct</span></div>
+            </div>
+            <div class="comment  ps-0 ms-0 pt-4">
+              <h3 class="">Baby Planet's toys makes learning simple!</h3>
+              <p class="w-100">Aliquet nibh sociis natoque penatibus et magnis dis parturient montes, ...</p>
+              <div class="comment-by d-flex align-content-center  align-items-center fa-2xs">
+                <i class="fa-regular fa-user text-center text-main-color1"></i>
+                <h4 class="p-2 mt-2">By Ram M | 1 Comment</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="comment3 d-flex">
+            <div class="position-relative imgbaby2 mt-3 ">
+              <img src="assets/img/baby-playing3.png" alt="...">
+              <div class="date bg-main-color1 px-2 py-1 text-white text-center position-absolute"><span
+                  class="day">15</span> <br> <span class="month">Oct</span></div>
+            </div>
+            <div class="comment  ps-0 ms-0 pt-4">
+              <h3>Baby is a little bit of heaven visiting Earth!</h3>
+              <p class="w-100">Nullam eget sociis natoque penatibus et magnis dis parturient montes, na...</p>
+              <div class="comment-by d-flex align-content-center  align-items-center fa-2xs">
+                <i class="fa-regular fa-user text-center text-main-color1"></i>
+                <h4 class="p-2 mt-2">By Ram M | 1 Comment</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--end comments section-->
+
+  <!--start salling details section-->
+  <section class="salling-details p-5">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-md-3 text-center everyday-saving m-3 sales ">
+          <div class="salling-details-icon ">
+            <i class="fa-regular fa-clock text-white bg-main-color2 p-4 "></i>
+          </div>
+
+          <div class="py-4  ">
+            <h2 class="fs-5">Great Saving Everyday</h2>
+            <div class="p d-flex justify-content-center">
+              <p class="w-75">Rorem ipsum dolor sit amet, consectetur adipis cing elit. Nullam id arcu tortor. Sed eget
+                sit ame
+                egestas,
+                cursus felis quis, vestibulum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center Half-price-Sale m-3 sales ">
+          <div class="salling-details-icon ">
+            <i class="fa-solid fa-eraser text-white bg-red-color p-4 "></i>
+          </div>
+          <div class="py-4 ">
+            <h2 class="fs-5">Half price Sale</h2>
+            <div class="p d-flex justify-content-center">
+              <p class="w-100">Nullam id arcu tortor. Sed eget sit ame egestas, cursus felis quis, vestibulum. Lorem
+                ipsum dolor sit amet, consectetur adipis cing elit.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3 text-center back-15 m-3 sales ">
+          <div class="salling-details-icon ">
+            <i class="fa-regular fa-percent text-white bg-yellow-color p-4 "></i>
+          </div>
+
+          <div class="py-4  ">
+            <h2 class="fs-5">Extra 15% Cash Back</h2>
+            <div class="p d-flex justify-content-center">
+              <p>Sed eget sit ame egestas, cursus felis quis, vestibulum. Lorem ipsum dolor sit amet, consectetur adipis
+                cing elit. Nullam id arcu tortor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end salling details section-->
+
+
+  <!--start Newsletter section-->
+  <section class="Newsletter p-5 mb-5 ">
+    <div class="container">
+      <h2 class="text-main-color1 ps-5 ms-5">Newsletter</h2>
+      <div class="d-flex P&nav justify-content-center align-items-end">
+        <p>Remember to stay in touch to get Season's offers and discounts!</p>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 rounded-pill bg-lightYellow-color border-0  shadow-none email-address ms-1"
+                type="search" placeholder="Your email address" aria-label="Search">
+              <button
+                class="btn btn-outline-success rounded-pill bg-main-color1 text-white d-flex justify-content-center align-items-center border-0 btn-submit ms-1"
+                type="submit">Submit
+                <i class=" fa fa-paper-plane ms-2"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!--end Newsletter section-->
+
+  <!--start footer-->
+  <div class="footerbg">
+
+  </div>
+  <footer>
+    <div class="container ">
+      <div>
+        <div class="footer-title pt-3">
+
+        </div>
+      </div>
+      <div class="row py-5 mt-3 ps-5 ">
+        <div class="col-md-3">
+          <h2 class="ms-3">Information</h2>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Search</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Consultant</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Help & FAQs</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Locations & Store</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">News</a>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <h2 class="ms-3">Help</h2>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="contact.html" class="">Contact us</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Refund and Returns</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Terms of Service</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Press Release</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Locations & Store</a>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <h2 class="ms-3">My account</h2>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">About us</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Privacy & Policy</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Terms & Conditions</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Manufactures</a>
+          </div>
+          <div class="footer-details d-flex align-items-center justify-content-start">
+            <i class="fa-solid fa-chevron-right m-3"></i>
+            <a href="#" class="">Orders Returns</a>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <h2 class="ms-3 mb-4">Contact us</h2>
+          <div class="d-flex flex-wrap">
+            <div class="footer-details4 d-flex align-items-start justify-content-start">
+              <i class="fa-solid fa-house m-3 mt-0 Contact-us "></i>
+              <h3 class="w-50 mt-1 location">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</h3>
+            </div>
+            <div class="footer-details4 d-flex align-items-center justify-content-start">
+              <i class="fa-solid fa-phone m-3 Contact-us "></i>
+              <h3>+0000 1234 56789</h3>
+            </div>
+            <div class="footer-details4 d-flex align-items-center justify-content-start">
+              <i class="fa-solid fa-envelope m-3 Contact-us"></i>
+              <a href="#">info@example.com</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="comunication d-flex justify-content-center align-items-baseline bg-white rounded-pill ">
+        <a href="#">Search</a> <p class="p-2 space">|</p>
+        <a href="#">Consultant</a> <p class="p-2 space">|</p>
+        <a href="#">Help & FAQs </a> <p class="p-2 space">|</p>
+        <a href="#">Locations & Store</a> <p class="p-2 space">|</p>
+        <a href="#">News</a>
+      </div>
+      
+    </div>
+
+  </footer>
+  <div class="d-flex justify-content-around p-3 end-footer">
+    <p class="par">&copy;2023 Baby Planet Theme (password: buddha) <a href="#" class="text-main-color2 text-decoration-none">Design Themes</a></p>
+    <img src="assets/img/vesa.png" alt="...">
+  </div>
+<!--end footer-->
+
+  <!--bootstrap js-->
+  <script src="vender/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vender/bootstrap/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
